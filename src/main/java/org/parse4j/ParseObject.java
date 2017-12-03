@@ -406,7 +406,7 @@ public class ParseObject {
 		
 	}
 	
-	protected void addData(Map<String, Object> changeSet) {
+	public void addData(Map<String, Object> changeSet) {
 		if(changeSet == null || changeSet.isEmpty()) return;
 		for (Map.Entry<String, Object> change : changeSet.entrySet()) {
 			String key = change.getKey();
