@@ -346,7 +346,7 @@ public class ParseQuery<T extends ParseObject> {
 			}
 			
 			if (!this.include.isEmpty()) {
-				params.put("include", Parse.join(this.include, ","));
+				params.put("include", Parse.j1oin(this.include, ","));
 			}
 			
 			if (this.selectedKeys != null) {
